@@ -1,0 +1,54 @@
+.category {
+  margin-top: 92px;
+  margin-right: 25px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.category p {
+  margin-top: -80px;
+  color: #747f9d;
+}
+
+.category_rowOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displayTop {
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+
+.displayTop img {
+  width: 65px;
+  height: 33px;
+  margin-right: 5px;
+}
+
+.displayTop span {
+    opacity: 70%;
+}
+
+.category button{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  border: white;
+  color: #1b5cff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn svg{
+ margin-left: 5px;
+} 

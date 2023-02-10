@@ -1,0 +1,71 @@
+.dashboard {
+  width: 220px;
+  height: 1230px;
+  font-size: 1rem;
+  padding-top: 25px;
+  margin-top: 1px;
+  padding-right: 12px;
+  background-color: white;
+}
+
+.dashboard a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 10px;
+  width: 200px;
+  height: 50px;
+  color: #99a1b6;
+}
+
+.dashboard a:hover {
+  color: #195dff;
+  background-color: #f3f6ff;
+  border-radius: 10px;
+  border: 1px solid #f3f6ff;
+  border-right-width: 4px;
+  border-right-color: #1b5cff;
+  width: 200px;
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.dashboard li {
+  padding-bottom: 15px;
+}
+
+.dashboard span {
+  padding-right: 10px;
+}
+
+.dashboard ul {
+  list-style-type: none;
+}
+
+.chatNumber span {
+  width: 20px;
+  position: absolute;
+  right: 120px;
+  top: 275px;
+  background: #1b5cfe;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: small;
+  padding-top: 2px;
+  padding-right: 0px;
+}
+
+.chat {
+  margin-left: 10px;
+}
+
+.svg{
+  position: absolute;
+  right: 210px;
+  top: 950px;
+  color: #195dff;
+}

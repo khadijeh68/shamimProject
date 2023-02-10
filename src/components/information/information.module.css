@@ -1,0 +1,88 @@
+.information {
+  width: 285px;
+  height: 1180px;
+  background-color: white;
+  margin-top: 25px;
+  margin-right: 25px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #99a1b6;
+}
+
+.divider {
+  flex-grow: 1;
+  border: 1px solid #99a1b6;
+  width: 100px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 10px 25px 0 25px;
+  margin-top: 25px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img {
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.profile p {
+  color: #195dff;
+  padding-bottom: 20px;
+}
+
+.icon svg {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tagLines {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 18px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.tagLines li {
+  color: black;
+  opacity: 80%;
+  width: 100px;
+  height: 40px;
+  background-color: #f3f6ff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 8px 0 0 8px;
+  list-style-type: none;
+}
+
+.aboutMe {
+  padding: 10px;
+  margin: 8px 0 0 8px;
+  color: black;
+  margin-right: 20px;
+  opacity: 80%;
+}
+
+.certificate,.job {
+  padding: 10px;
+  margin: 8px 0 0 8px;
+  color: black;
+  opacity: 80%;
+  margin-right: 40px;
+}
+
+.information svg{
+  cursor: pointer;
+}
